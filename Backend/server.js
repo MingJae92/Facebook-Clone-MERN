@@ -14,13 +14,13 @@ Grid.mongo = mongoose.mongo
 const app = express()
 const port = process.env.PORT || 9000
 
-const pusher = new Pusher({
-    appId: "1214176",
-    key: "eb16fd1fd75893673af8",
-    secret: "f563bfe81e1da394eeb9",
-    cluster: "eu",
+const pusher = new Pusher({ 
+    appId: "1243073",
+    key: "a3372ba0676d1970b6e8",
+    secret: "b0f0b974b70710b1c0ac",
+    cluster: "eu", 
     useTLS: true
-  }); 
+  });
   
 app.use(bodyParser.json());
 app.use(cors())
@@ -88,7 +88,7 @@ app.post('/upload/image', upload.single('file'), (req, res)=>{
     res.status(201).send(req.file)
 })
 
-app.post('/upload/post', (req, res)=>{
+app.post('/upload/posts', (req, res)=>{
     const dbPost = req.body
 
     mongoPosts.create(dbPost, (err, data)=>{

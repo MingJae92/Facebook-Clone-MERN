@@ -64,7 +64,7 @@ function MessageSender() {
     }
 
     const savePost = async(postData)=>{
-      await axios.post('/upload/post', postData).then((resp)=>{
+      await axios.post('/upload/posts', postData).then((resp)=>{
         console.log(resp)
       })
     }
