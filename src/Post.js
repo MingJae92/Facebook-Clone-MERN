@@ -8,8 +8,8 @@ import ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 
 function Post({profilePic, imgName, username, timestamp, text}) {
-  console.log(text)
-  console.log(username)
+  // console.log(text)
+  // console.log(username)
   return (
     <div className='post'>
       <div className="post__top">
