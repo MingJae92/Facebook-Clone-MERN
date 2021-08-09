@@ -6,8 +6,9 @@ import Post from './Post';
 import axios from './axios';
 import Pusher from 'pusher-js'
 
-const pusher = new Pusher('eb16fd1fd75893673af8', {
-  cluster: 'eu'
+const pusher = new Pusher('a3372ba0676d1970b6e8', {
+  cluster: 'eu' 
+
 });
 
 const Feed=()=> {
