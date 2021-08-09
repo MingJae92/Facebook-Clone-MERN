@@ -41,12 +41,16 @@ const Feed=()=> {
       {postsData.map(post=> (
         
         <Post
-         key={post.timestamp}
+        
         profilePic = {post.profilePic}
+        key={post.profilePic}
         text={post.text}
         timestamp = {post.timestamp}
+        key={post.timestamp}
         username = {post.username}
+        key={post.username}
         image={post.image}
+        key={post.image}
         />
       ))
         }
