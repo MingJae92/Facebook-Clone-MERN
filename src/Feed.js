@@ -39,7 +39,7 @@ const Feed=()=> {
       <MessageSender/>
       
       {postsData.map(post=> (
-        console.log(post) &&
+        
         <Post
         // key={post.timestamp}
         profilePic = {post.profilePic}
