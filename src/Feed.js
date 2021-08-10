@@ -49,7 +49,7 @@ const Feed=()=> {
         key={post.timestamp}
         username = {post.username}
         key={post.username}
-        image={post.image}
+        imgName={post.imgName}
         key={post.image}
         />
       ))
