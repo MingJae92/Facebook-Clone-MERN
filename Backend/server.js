@@ -86,6 +86,7 @@ app.get('/', (req, res)=>res.status(200).send('Hello world'))
 
 app.post('/upload/image', upload.single('file'), (req, res)=>{
     res.status(201).send(req.file)
+    console.log(req.file)
 })
 
 app.post('/upload/posts', (req, res)=>{
