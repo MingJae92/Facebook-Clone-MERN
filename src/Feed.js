@@ -50,7 +50,7 @@ const Feed=()=> {
         username = {post.username}
         key={post.username}
         imgName={post.imgName}
-        key={post.image}
+        key={post.imgName}
         />
       ))
         }
