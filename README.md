@@ -1,4 +1,4 @@
-To run this app, you will need to clone it first. Then install NPM, using the command line by typing NPM install or NPM i. Once NPM has been installed type NPM start to access the front end. For the server to run, you will need to type ls, then after type cd Backend server.js, then type nodemon server.js.
+To run this app, you will need to clone it first. Then install NPM, using the command line by typing NPM install or NPM i. Once NPM has been installed type NPM start into the command line to access the front end. To access the server you will need to type into the command line, ls then after that type cd Backend, press return and then lastly type nodemon server.js
 
 # Getting Started with Create React App
 
