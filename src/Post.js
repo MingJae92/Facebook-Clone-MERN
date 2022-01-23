@@ -26,7 +26,7 @@ function Post({profilePic, imgName, username, timestamp, text}) {
       {
         imgName ? (
       <div className='post__image'>
-        <img src={`http://localhost:9000/retrieve/image/single?name=${imgName}`}/>
+        <img src={`http://localhost:7000/retrieve/image/single?name=${imgName}`}/>
       </div>
         ):(
           console.log('DEGUB >>> no image here')
