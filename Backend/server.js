@@ -12,7 +12,7 @@ import mongoPosts from './mongoPosts.js'
 Grid.mongo = mongoose.mongo
 
 const app = express()
-const port = process.env.PORT || 7000
+const port = process.env.port || 7000
 
 const pusher = new Pusher({ 
     appId: "1243073",
